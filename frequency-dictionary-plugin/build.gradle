@@ -2,7 +2,7 @@ apply plugin: "base"
 
 dependencies {
     implementation project(":plugin-interface")
-    testImplementation "org.apache.commons:commons-lang3:$commonsLangVersion"
+    implementation "org.apache.commons:commons-lang3:$commonsLangVersion"
 }
 
 task copyPlugin(type: Copy) {
